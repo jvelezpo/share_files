@@ -7,9 +7,9 @@ Reto-­‐03:
 Diseñar e implementar un servicio de compartición sencilla de archivos entre clientes utilizando la arquitectura P2P y un middleware/framework P2P (FileP2P) 
   
 ##Modo de empleo
-En la carpeta _reto3_ hay 2 archivos ejecutables, server.rb y client.rb. Se debe de ejecutar el primer archivo server.rb, especificando el puerto que se desea utulizar `$ ruby server.rb 5555`
+En la carpeta _reto3_ hay 2 archivos ejecutables, servidor.rb y cliente.rb. Se debe de ejecutar el primer archivo servidor.rb, especificando el puerto que se desea utulizar `$ ruby servidor.rb 5555`
 
-Despues de tener en ejecucion el servidor podemos correr cuantas instancias de client.rb deseemos. Para esto se debe de especificar la ip del servidor y su puerto `$ ruby client localhost 5555`
+Despues de tener en ejecucion el servidor podemos correr cuantas instancias de cliente.rb deseemos. Para esto se debe de especificar la ip del servidor y su puerto `$ ruby cliente localhost 5555`
 
 #####Envio de mensajes
 Simplemente en la consola de client se copia el mensaje y este sera transmitido a todos los peers conectados en el momento
